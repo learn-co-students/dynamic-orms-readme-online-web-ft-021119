@@ -14,3 +14,4 @@ SQL
 
 DB[:conn].execute(sql)
 DB[:conn].results_as_hash = true
+  #when a SELECT statement is executed, don't return a database row as an array, return it as a hash with the column names as keys
